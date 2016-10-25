@@ -2,7 +2,32 @@
 
 ## Backend part for coursach
 
-# branch master is the perfect branch with working code
+__Branch master is the perfect branch with working code
 
-# If you develop the new feature you should create new branch with name feature/<name of feature> 
+If you develop the new feature you should create new branch with name "name of feature" __
 
+```bash
+git checkout -b <feature_name>
+```
+
+Do not take in mind until actual development will started.
+
+## Virtual enviroment
+
+- To install virtualenv enter:
+ 
+```bash
+pip3 install virtualenv
+```
+
+- To create virtualenv __run this command into root of directory__
+```bash
+virtualenv env
+source env/bin/activate
+pip3 install -r requirements.txt
+```
+
+-To run virtualenv enter:
+```bash
+source env/bin/activate
+```
