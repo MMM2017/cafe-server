@@ -14,7 +14,6 @@ ____________
 ## Virtual enviroment
 
 - To install virtualenv enter:
- 
 ```bash
 pip3 install virtualenv
 ```
@@ -26,7 +25,12 @@ source env/bin/activate
 pip3 install -r requirements.txt
 ```
 
--To run virtualenv enter:
+- To run virtualenv enter:
 ```bash
 source env/bin/activate
+```
+
+- To deactivate virtualenv:
+```
+deactivate
 ```
