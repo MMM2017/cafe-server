@@ -11,7 +11,7 @@ git checkout -b <feature_name>
 ```
 Do not take in mind until actual development will started.
 ____________
-## Virtual enviroment
+## [Virtual enviroment](https://virtualenv.pypa.io/en/stable/)
 
 - To install virtualenv enter:
 ```bash
