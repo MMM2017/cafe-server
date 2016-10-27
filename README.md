@@ -10,17 +10,17 @@ If you develop the new feature you should create new branch with name "name of f
 git checkout -b <feature_name>
 ```
 Do not take in mind until actual development will started.
-____________
-## [Virtual enviroment](https://virtualenv.pypa.io/en/stable/)
+______
+## [Virtual environment](https://virtualenv.pypa.io/en/stable/)
 
 - To install virtualenv enter:
 ```bash
 pip3 install virtualenv
 ```
 
-- To create virtualenv run this command into __root of directory__
+- To create virtualenv run this commands:
 ```bash
-virtualenv env
+virtualenv -p python3 env
 source env/bin/activate
 pip3 install -r requirements.txt
 ```
@@ -34,3 +34,10 @@ source env/bin/activate
 ```
 deactivate
 ```
+
+- To update required packages in virtual environment:
+After activating virtualenv:
+```bash
+pip3 install -U -r requirements.txt
+```
+_____
