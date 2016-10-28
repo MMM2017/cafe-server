@@ -17,10 +17,19 @@ ______
 ```bash
 pip3 install virtualenv
 ```
+- find python3.5(path_to_python)
+```	whereis python
+должно быть что-то типо такого: python: /usr/bin/python2.7-config /usr/bin/python2.7 /usr/bin/python /usr/bin/python3.5 /usr/bin/python3.5m /usr/lib/python2.7 /usr/lib/python3.5 /etc/python2.7 /etc/python /etc/python3.5 /usr/local/lib/python2.7 /usr/local/lib/python3.5 /usr/include/python2.7 /usr/include/python3.5m /usr/share/python /usr/share/man/man1/python.1.gz
+
+
+выбираем(копируем):
+/usr/bin/python3.5
+
+```
 
 - To create virtualenv run this commands:
 ```bash
-virtualenv -p python3 env
+virtualenv -p path_to_python env
 source env/bin/activate
 pip3 install -r requirements.txt
 ```
