@@ -47,4 +47,8 @@ pip3 install -U -r requirements.txt
 ```
 _____
 
+To watch DB state install: [SQLite Browser](http://sqlitebrowser.org/)
+
+_____
+
 If you have problems or offers please write to [me](https://vk.com/im?sel=43309391)

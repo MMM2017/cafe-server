@@ -22,7 +22,6 @@ class Worker(models.Model):
     role = models.ForeignKey(Role)
 
 
-# Create your models here.
 class Dish(models.Model):
     title = models.TextField(max_length=128, default='')
     weight = models.FloatField(default=0.0)
@@ -46,4 +45,4 @@ class OrderItem(models.Model):
 class Order(models.Model):
     waiter = models.ForeignKey(Worker)
     status = models.ForeignKey(OrderStatus)
-    price = models.FloatField(default=0.0,)
+    price = models.FloatField(default=0.0)
